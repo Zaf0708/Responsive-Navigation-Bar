@@ -11,18 +11,22 @@ body {
 }
 
 nav {
+ display: flex;
  background: #343434;
  height: 100px;
  width: 100%;
 }
 
 nav .logo {
+  display: flex;
+  justify-content: left;
   width: 100px;
   height: 100px;
 }
 
 nav ul {
-  float: right;
+  display: flex;
+  justify-content: right;
 }
 
 nav ul li {
