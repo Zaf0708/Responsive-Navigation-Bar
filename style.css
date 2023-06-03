@@ -55,10 +55,13 @@ a.active, a:hover {
 }
 
 @media (max-width: 720px) {
+  .logo {
+    align-self: center;
+  }
   nav{
     flex-direction: column;
   }
-  
+
   ul {
     display: flex;
     flex-direction: column;
