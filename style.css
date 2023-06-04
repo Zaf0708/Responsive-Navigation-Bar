@@ -10,9 +10,13 @@ body {
   font-family: montserrat;
 }
 
+.background {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 1rem;
+}
+
 nav {
- display: flex;
- justify-content: space-between;
  background: #343434;
  height: 100px;
  width: 100%;
@@ -58,8 +62,9 @@ a.active, a:hover {
   .logo {
     align-self: center;
   }
-  nav{
+  .background {
     flex-direction: column;
+    margin-inline: 0;
   }
 
   ul {
