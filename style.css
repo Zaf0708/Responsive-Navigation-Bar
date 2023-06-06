@@ -10,7 +10,7 @@ body {
   font-family: montserrat;
 }
 
-.background {
+.header {
   display: flex;
   justify-content: space-between;
   margin-inline: 1rem;
@@ -57,7 +57,7 @@ a.active, a:hover {
   .logo {
     align-self: center;
   }
-  .background {
+  .header {
     flex-direction: column;
     margin-inline: 0;
   }
